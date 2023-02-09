@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.print-area {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.print-area .header {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(70, 72, 77);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header img {
+  width: 300px;
+  height: 340px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  box-shadow: 3px 3px 10px grey;
+  filter: grayscale(100%);
+}
+
+.header-text {
+  color: azure;
+  width: 60%;
+  margin-left: auto;
+}
+
+.header-text h1 {
+  font-size: 80px;
+  font-weight: normal;
+}
+
+.header-text p {
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.content {
+  display: flex;
+  display: wrap;
+}
+
+.left-area {
+  width: 30%;
+  background-color: lightgray;
+}
+
+.left-area .contact {
+  margin-top: 200px;
+  padding: 0 30px;
+}
+
+.contact h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px 0px;
+}
+
+.contact h5 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px 0px;
+}
+
+.contact-item {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.right-area {
+  width: 70%;
+  padding: 50px;
+}
+
+.right-area h1 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 70px;
+}
+
+.right-area p h1 {
+  padding-left: 70px;
+  text-align: justify;
+  word-break: break-all;
+  font-size: 17px;
+  color: rgb(35, 33, 33);
+  line-height: 20px;
+}
+
+.skills-item {
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.skills h4 {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.skills-item {
+  line-height: 25px;
+}
+
+.follow {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.education h1 {
+  font-size: 22px;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+.education {
+  margin-bottom: 20px;
+}
+
+.language-list {
+  font-weight: bold;
+}
+
+.projects-item {
+  font-weight: 18px;
+}
+
+.contact p,
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.language-list {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  list-style-type: none;
+}
+
+.language-item {
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.projesct-item-bracketes {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+
+.achievment {
+  font-weight: bold;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
