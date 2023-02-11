@@ -21,7 +21,7 @@
 
 .header img {
     width: 300px;
-    height: 340px;
+    height: 320px;
     position: absolute;
     top: 10px;
     left: 40px;
@@ -46,8 +46,10 @@
 }
 
 .content {
-    display: flex;
+   display: flex;
     display: wrap;
+   
+
 }
 
 .left-area {
@@ -63,13 +65,16 @@
 .contact h4 {
     font-size: 25px;
     font-weight: bold;
-    margin-right: 20px 0px;
+    margin-top: 15px;
+    margin-left: 50px;
+    // margin-bottom: 30px ;
 }
 
 .contact h5 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     margin-right: 10px 0px;
+    line-height: 20px;
 }
 
 .contact-item {
@@ -77,6 +82,8 @@
     text-decoration: none;
     color: black;
     font-weight: normal;
+    align-self: justify;
+
 }
 
 .right-area {
@@ -88,6 +95,9 @@
     font-size: 22px;
     font-weight: bold;
     padding-left: 70px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 20px;
 }
 
 .right-area p h1 {
@@ -114,7 +124,7 @@
 }
 
 .skills-item {
-    line-height: 25px;
+    line-height: 22px;
 }
 
 .follow {
@@ -127,10 +137,13 @@
     font-size: 22px;
     padding-left: 70px;
     font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .education {
     margin-bottom: 20px;
+    line-height: 20px;
 }
 
 .language-list {
@@ -166,7 +179,7 @@ a {
 
 }
 
-/*# sourceMappingURL=main.css.map */
+
 
 
 .projesct-item-bracketes{
@@ -180,4 +193,31 @@ a {
  .achievment{
     font-weight: bold;
         font-size: 16px;
+ }
+
+
+ .project-name{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+ }
+
+ .project-link{
+    font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+        color: blue;
+        text-decoration: underline;
+ }
+
+ .project-text{
+    margin-left: 20px;
+ }
+ hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
  }
