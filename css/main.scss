@@ -21,7 +21,7 @@
 
 .header img {
     width: 300px;
-    height: 320px;
+   
     position: absolute;
     top: 10px;
     left: 40px;
@@ -82,7 +82,15 @@
     text-decoration: none;
     color: black;
     font-weight: normal;
-    align-self: justify;
+   
+  
+
+
+}
+.contact-link{
+    text-decoration: underline;
+    font-size: 14px;
+      
 
 }
 
@@ -110,12 +118,15 @@
 }
 
 .skills-item {
-    margin-left: 45px;
+    
     margin-top: 10px;
+    line-height: 22px;
+    
 }
 
 .skills {
     margin-top: 30px;
+    margin-right: 60px;
 }
 
 .skills h4{
@@ -123,9 +134,7 @@
     margin-left: 50px;
 }
 
-.skills-item {
-    line-height: 22px;
-}
+
 
 .follow {
     margin-top: 30px;
@@ -145,13 +154,20 @@
     margin-bottom: 20px;
     line-height: 20px;
 }
+.projects{
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
 
 .language-list {
     font-weight: bold;
+  
 }
 
 .projects-item {
     font-weight: 18px;
+    
 }
 
 .contact p,
@@ -203,6 +219,7 @@ a {
     font-size: 17px;
     line-height: 24px;
     color: #000;
+    text-decoration: underline;
  }
 
  .project-link{
@@ -221,3 +238,4 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
  }
+
