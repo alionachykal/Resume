@@ -20,7 +20,7 @@
 }
 
 .header img {
-  width: 298px;
+  width: 306px;
   position: absolute;
   top: 0.1px;
   filter: grayscale(100%);
@@ -48,7 +48,6 @@
 }
 
 .left-area {
-  width: 24%;
   background-color: lightgray;
 }
 
